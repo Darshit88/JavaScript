@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.stop {
+  font-size: 60px;
+  font-family: cursive;
+  color: rgb(50, 48, 46);
+  font-weight: 100;
+}
+
+.stop:hover {
+  font-size: 70px;
+  transition: 2s;
+  color: rgb(53, 46, 39);
+}
+
+.watch {
+  text-align: center;
+  width: 100%;
+  padding: 230px 0px;
+  height: 695px;
+  line-height: 2;
+  background-color: rgba(155, 108, 167, 0.968);
+}
+
+button {
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-family: verdana;
+  font-style: italic;
+  background-color: rgba(155, 84, 173, 0.968);
+  border-radius: 20px;
+  border-color: darkorchid;
+}
+
+button:hover {
+  width: 100px;
+  transition: 2s;
+  color: rgb(50, 48, 46);
+}
+
+.numb {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: verdana;
+  color: rgb(50, 48, 46);
+}
