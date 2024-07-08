@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+</body>
+</html>
+
+
+
+<script>
+    // promises
+    // panding, fullfill, reject
+
+
+    let a = -3
+
+    let promise = new Promise(function(resolve,reject) {
+        if (a > 0) {
+            resolve("a is greatern than zero")
+        } 
+        else {
+            reject("a is lower than zero")
+        }
+    }).then((result) => console.log(result)).catch((err) => console.log(err))
+
+    // // onfullfillment
+
+    // let onfullfillment = (result) => {
+    //     console.log(result);
+    // }
+
+    // // onrejection
+    // let rejection = (Error) => {
+    //     console.log(Error);
+    // }
+
+    // promise.then(onfullfillment)
+    // promise.catch(rejection)
+
+
+
+</script>
